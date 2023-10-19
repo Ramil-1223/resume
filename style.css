@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 4px;
+    background-color: #f1f1f1;
+    color: #0c0724;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.red {
+    background-color: rgb(240, 194, 194);
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.green {
+    background-color: rgb(191, 236, 191);
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.yellow {
+    background-color: rgb(241, 241, 177);
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgb(231, 127, 29);
+    padding: 5px 10px;
+    color: rgb(247, 240, 177);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: red;
+}
+
+a {
+    color: rgb(231, 127, 29);
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: darkred;
+}
+
+.table {
+    width: 100%;
+}
+    
+.table tr:nth-child(odd){
+    background: #beee97;
+}
+
+
+.table td:hover {
+    background: hsl(97, 75%, 89%);
+}

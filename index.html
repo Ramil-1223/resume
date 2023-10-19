@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="resume, name, age">
-    <meta name="description" content="Резюме Junior Tester">
+    <meta name="description" content="Резюме Junior">
+    <link rel="stylesheet" href="style.css">
     <title>Резюме</title>
 </head>
 <body>
-    <img src="Elon.jpg" alt="Ramil Sadykov" width="200">
-    <h1>Рамиль Садыков</h1>
+<div class="container">  
+    <img src="Elon.jpg" alt="Ramil Sadykov">
 
-    <p>Меня зовут Рамиль. На данноый момент работаю кладовщиком-комплектовщиком в крупной мебельной компании <strong>"Мир мебели"</strong>
+<header id="header">
+   <div class="red"> 
+    <h1>Рамиль Садыков</h1>
+    <p>Меня зовут Рамиль. На данный момент работаю кладовщиком-комплектовщиком в крупной мебельной компании <strong>"Мир мебели"</strong>.
      Работаю с товарами и руковожу отгрузкой этих самых товаров. Хочу сменить специальность, т.к. понял что мне не хватает развития и новых знаний, чего на моей должности этого нет.
     </p>
+   </div>
+</header>
 
-        <br>
-       
+    <br>
+    
+<main> 
+  <div class="green">       
    <strong>Хобби:</strong>
     
     <ul>         
@@ -24,10 +32,10 @@
         <li>Учу английский. Пока на уровне "Not bad, but not good"</li>
         <li>Sport is like a drug only useful.</li>
     </ul>     
-    </hР>
 
     <h3>Опыт работы:</h3>
 
+  <div class="table"> 
     <table>
        <thead>
         <tr>
@@ -46,11 +54,14 @@
         </tr>
        </tbody>  
     </table>
+  </div>  
+</main>     
 
+<footer>
+   <div class="yellow">
     <h4>Социальные сети:</h4>
 
-    <a href="" target="_blank">Instagram</a>
-    <a href="" target="_blank">Telegram</a>
+    <a href="https://web.telegram.org/a/" target="_blank">Telegram</a>
 
     <br>
     <h3>Связь со мной:</h3>
@@ -70,8 +81,11 @@
           <br>
         <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
        </div>
-        <input type="submit" value="Отправить">
+        <input type="submit" class="btn" value="Отправить">     
     </form>
+   </div>   
+</footer>
+</div> 
     
     
 </body>
